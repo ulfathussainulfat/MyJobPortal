@@ -1,0 +1,5 @@
+E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\bin\JobPortal.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\bin\JobPortal.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
+E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.pdb
