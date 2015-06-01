@@ -3,3 +3,11 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\bin\JobPortal.pdb
 E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
 E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.dll
 E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\JobPortal.dll.config
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\JobPortal.dll
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\JobPortal.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\obj\Debug\JobPortal.dll
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\obj\Debug\JobPortal.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\BusinessObjects.dll
+D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\BusinessObjects.pdb

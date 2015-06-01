@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JobPortalModelStoreContainer" CdmEntityContainer="JobPortalContext">
+    <EntitySetMapping Name="Academics">
+      <EntityTypeMapping TypeName="JobPortalModel.Academic">
+        <MappingFragment StoreEntitySet="Academics">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DegreeLevelId" ColumnName="DegreeLevelId" />
+          <ScalarProperty Name="DegreeTypeId" ColumnName="DegreeTypeId" />
+          <ScalarProperty Name="DegreeTitle" ColumnName="DegreeTitle" />
+          <ScalarProperty Name="CompletionYear" ColumnName="CompletionYear" />
+          <ScalarProperty Name="InstitutionName" ColumnName="InstitutionName" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountTypes">
+      <EntityTypeMapping TypeName="JobPortalModel.AccountType">
+        <MappingFragment StoreEntitySet="AccountType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AccountType1" ColumnName="AccountType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CareerLevels">
+      <EntityTypeMapping TypeName="JobPortalModel.CareerLevel">
+        <MappingFragment StoreEntitySet="CareerLevel">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CareerLevel1" ColumnName="CareerLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="JobPortalModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="City1" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="JobPortalModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Country1" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DegreeLevels">
+      <EntityTypeMapping TypeName="JobPortalModel.DegreeLevel">
+        <MappingFragment StoreEntitySet="DegreeLevel">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DegreeLevel1" ColumnName="DegreeLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DegreeTypes">
+      <EntityTypeMapping TypeName="JobPortalModel.DegreeType">
+        <MappingFragment StoreEntitySet="DegreeType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DegreeLevelId" ColumnName="DegreeLevelId" />
+          <ScalarProperty Name="DegreeType1" ColumnName="DegreeType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Experiences">
+      <EntityTypeMapping TypeName="JobPortalModel.Experience">
+        <MappingFragment StoreEntitySet="Experience">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="JobTitle" ColumnName="JobTitle" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="IsCurrent" ColumnName="IsCurrent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FunctionalAreas">
+      <EntityTypeMapping TypeName="JobPortalModel.FunctionalArea">
+        <MappingFragment StoreEntitySet="FunctionalArea">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FunctionalArea1" ColumnName="FunctionalArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobRoles">
+      <EntityTypeMapping TypeName="JobPortalModel.JobRole">
+        <MappingFragment StoreEntitySet="JobRole">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FunctionalAreaId" ColumnName="FunctionalAreaId" />
+          <ScalarProperty Name="JobRole1" ColumnName="JobRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProfessionalIndustries">
+      <EntityTypeMapping TypeName="JobPortalModel.ProfessionalIndustry">
+        <MappingFragment StoreEntitySet="ProfessionalIndustry">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProfessionalIndustry1" ColumnName="ProfessionalIndustry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resumes">
+      <EntityTypeMapping TypeName="JobPortalModel.Resume">
+        <MappingFragment StoreEntitySet="Resume">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ResumeTitle" ColumnName="ResumeTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="JobPortalModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ProfessionalIndustryId" ColumnName="ProfessionalIndustryId" />
+          <ScalarProperty Name="FunctionalAreaId" ColumnName="FunctionalAreaId" />
+          <ScalarProperty Name="CareerLevelId" ColumnName="CareerLevelId" />
+          <ScalarProperty Name="JobRoleId" ColumnName="JobRoleId" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkExperiences">
+      <EntityTypeMapping TypeName="JobPortalModel.WorkExperience">
+        <MappingFragment StoreEntitySet="WorkExperience">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="WorkExperience1" ColumnName="WorkExperience" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

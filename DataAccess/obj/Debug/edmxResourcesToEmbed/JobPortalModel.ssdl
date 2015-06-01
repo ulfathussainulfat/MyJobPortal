@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="JobPortalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Academics">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="DegreeLevelId" Type="int" />
+    <Property Name="DegreeTypeId" Type="int" />
+    <Property Name="DegreeTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompletionYear" Type="int" />
+    <Property Name="InstitutionName" Type="nvarchar" MaxLength="150" />
+    <Property Name="CityId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+  </EntityType>
+  <EntityType Name="AccountType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AccountType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CareerLevel">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CareerLevel" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DegreeLevel">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DegreeLevel" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="DegreeType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DegreeLevelId" Type="int" />
+    <Property Name="DegreeType" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Experience">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+    <Property Name="JobTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="150" />
+    <Property Name="CityId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="IsCurrent" Type="bit" />
+  </EntityType>
+  <EntityType Name="FunctionalArea">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FunctionalArea" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="JobRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FunctionalAreaId" Type="int" />
+    <Property Name="JobRole" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ProfessionalIndustry">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProfessionalIndustry" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Resume">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="ResumeTitle" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProfessionalIndustryId" Type="int" />
+    <Property Name="FunctionalAreaId" Type="int" />
+    <Property Name="CareerLevelId" Type="int" />
+    <Property Name="JobRoleId" Type="int" />
+    <Property Name="MobileNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="bit" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="AccountType" Type="int" />
+  </EntityType>
+  <EntityType Name="WorkExperience">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkExperience" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="JobPortalModelStoreContainer">
+    <EntitySet Name="Academics" EntityType="Self.Academics" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AccountType" EntityType="Self.AccountType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CareerLevel" EntityType="Self.CareerLevel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="City" EntityType="Self.City" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DegreeLevel" EntityType="Self.DegreeLevel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DegreeType" EntityType="Self.DegreeType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Experience" EntityType="Self.Experience" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FunctionalArea" EntityType="Self.FunctionalArea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="JobRole" EntityType="Self.JobRole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProfessionalIndustry" EntityType="Self.ProfessionalIndustry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Resume" EntityType="Self.Resume" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkExperience" EntityType="Self.WorkExperience" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
