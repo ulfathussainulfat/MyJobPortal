@@ -2,3 +2,4 @@ D:\Projects\JobPortal-Github\MyJobPortal\Business\bin\Debug\BusinessObjects.dll
 D:\Projects\JobPortal-Github\MyJobPortal\Business\bin\Debug\BusinessObjects.pdb
 D:\Projects\JobPortal-Github\MyJobPortal\Business\obj\Debug\BusinessObjects.dll
 D:\Projects\JobPortal-Github\MyJobPortal\Business\obj\Debug\BusinessObjects.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\Business\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache

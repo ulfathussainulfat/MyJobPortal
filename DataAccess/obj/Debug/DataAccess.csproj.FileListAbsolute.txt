@@ -7,3 +7,4 @@ D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.xm
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
