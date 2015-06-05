@@ -5,22 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>JobBoardTemplate</title>
-    <link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.main.js"></script>
+    <title>JobBoardTemplate</title>   
 </head>
 <body>
     <form id="form1" runat="server">
-    
-    <div>
-        <div id="header">
-            <div class="wrapper">
-                <div class="holder">
-                    <h1 class="logo"><a href="#">JobBoardTemplate</a></h1>                    
-                </div>               
-            </div>
-        </div>
+    <div>      
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
