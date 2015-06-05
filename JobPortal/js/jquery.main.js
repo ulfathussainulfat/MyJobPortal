@@ -524,6 +524,7 @@ function checkEvent(e) {
 
 // replace selects
 function replaceSelects() {
+    return;
 	for(var q = 0; q < selects.length; q++) {
 		if (!selects[q].replaced && selects[q].offsetWidth) {
 			selects[q]._number = q;

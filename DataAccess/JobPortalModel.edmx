@@ -4,12 +4,28 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="JobPortalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="JobPortalModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="JobPortalModelStoreContainer">
+          <EntitySet Name="Academics" EntityType="JobPortalModel.Store.Academics" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AccountType" EntityType="JobPortalModel.Store.AccountType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="CareerLevel" EntityType="JobPortalModel.Store.CareerLevel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="City" EntityType="JobPortalModel.Store.City" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Country" EntityType="JobPortalModel.Store.Country" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DegreeLevel" EntityType="JobPortalModel.Store.DegreeLevel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DegreeType" EntityType="JobPortalModel.Store.DegreeType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Experience" EntityType="JobPortalModel.Store.Experience" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FunctionalArea" EntityType="JobPortalModel.Store.FunctionalArea" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="JobRole" EntityType="JobPortalModel.Store.JobRole" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ProfessionalIndustry" EntityType="JobPortalModel.Store.ProfessionalIndustry" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Resume" EntityType="JobPortalModel.Store.Resume" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="User" EntityType="JobPortalModel.Store.User" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WorkExperience" EntityType="JobPortalModel.Store.WorkExperience" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
         <EntityType Name="Academics">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="UserId" Type="int" />
           <Property Name="DegreeLevelId" Type="int" />
           <Property Name="DegreeTypeId" Type="int" />
@@ -23,21 +39,21 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="AccountType" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="CareerLevel">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="CareerLevel" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="City">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="CountryId" Type="int" />
           <Property Name="City" Type="nvarchar" MaxLength="50" />
         </EntityType>
@@ -45,21 +61,21 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="Country" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="DegreeLevel">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="DegreeLevel" Type="nvarchar" MaxLength="150" />
         </EntityType>
         <EntityType Name="DegreeType">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="DegreeLevelId" Type="int" />
           <Property Name="DegreeType" Type="nvarchar" MaxLength="150" />
         </EntityType>
@@ -67,7 +83,7 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="StartDate" Type="date" />
           <Property Name="EndDate" Type="date" />
           <Property Name="JobTitle" Type="nvarchar" MaxLength="50" />
@@ -80,14 +96,14 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="FunctionalArea" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="JobRole">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="FunctionalAreaId" Type="int" />
           <Property Name="JobRole" Type="nvarchar" MaxLength="50" />
         </EntityType>
@@ -95,14 +111,14 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="ProfessionalIndustry" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Resume">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="UserId" Type="int" />
           <Property Name="ResumeTitle" Type="nvarchar" MaxLength="50" />
         </EntityType>
@@ -110,7 +126,7 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="UserName" Type="nvarchar" MaxLength="50" />
           <Property Name="Password" Type="nvarchar" MaxLength="50" />
           <Property Name="Email" Type="nvarchar" MaxLength="50" />
@@ -132,40 +148,41 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="WorkExperience" Type="nvarchar" MaxLength="50" />
         </EntityType>
-        <EntityContainer Name="JobPortalModelStoreContainer">
-          <EntitySet Name="Academics" EntityType="Self.Academics" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="AccountType" EntityType="Self.AccountType" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="CareerLevel" EntityType="Self.CareerLevel" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="City" EntityType="Self.City" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="DegreeLevel" EntityType="Self.DegreeLevel" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="DegreeType" EntityType="Self.DegreeType" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Experience" EntityType="Self.Experience" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="FunctionalArea" EntityType="Self.FunctionalArea" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="JobRole" EntityType="Self.JobRole" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="ProfessionalIndustry" EntityType="Self.ProfessionalIndustry" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Resume" EntityType="Self.Resume" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="WorkExperience" EntityType="Self.WorkExperience" Schema="dbo" store:Type="Tables" />
-        </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="JobPortalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="JobPortalModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="JobPortalContext" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Academics" EntityType="JobPortalModel.Academic" />
+          <EntitySet Name="AccountTypes" EntityType="JobPortalModel.AccountType" />
+          <EntitySet Name="CareerLevels" EntityType="JobPortalModel.CareerLevel" />
+          <EntitySet Name="Cities" EntityType="JobPortalModel.City" />
+          <EntitySet Name="Countries" EntityType="JobPortalModel.Country" />
+          <EntitySet Name="DegreeLevels" EntityType="JobPortalModel.DegreeLevel" />
+          <EntitySet Name="DegreeTypes" EntityType="JobPortalModel.DegreeType" />
+          <EntitySet Name="Experiences" EntityType="JobPortalModel.Experience" />
+          <EntitySet Name="FunctionalAreas" EntityType="JobPortalModel.FunctionalArea" />
+          <EntitySet Name="JobRoles" EntityType="JobPortalModel.JobRole" />
+          <EntitySet Name="ProfessionalIndustries" EntityType="JobPortalModel.ProfessionalIndustry" />
+          <EntitySet Name="Resumes" EntityType="JobPortalModel.Resume" />
+          <EntitySet Name="Users" EntityType="JobPortalModel.User" />
+          <EntitySet Name="WorkExperiences" EntityType="JobPortalModel.WorkExperience" />
+        </EntityContainer>
         <EntityType Name="Academic">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="UserId" Type="Int32" />
           <Property Name="DegreeLevelId" Type="Int32" />
           <Property Name="DegreeTypeId" Type="Int32" />
-          <Property Name="DegreeTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DegreeTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="CompletionYear" Type="Int32" />
-          <Property Name="InstitutionName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="InstitutionName" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
           <Property Name="CityId" Type="Int32" />
           <Property Name="CountryId" Type="Int32" />
         </EntityType>
@@ -173,55 +190,55 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="AccountType1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="AccountType1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="CareerLevel">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="CareerLevel1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="CareerLevel1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="City">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="CountryId" Type="Int32" />
-          <Property Name="City1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="City1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="Country">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Country1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Country1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="DegreeLevel">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="DegreeLevel1" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="DegreeLevel1" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="DegreeType">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="DegreeLevelId" Type="Int32" />
-          <Property Name="DegreeType1" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="DegreeType1" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="Experience">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="StartDate" Type="DateTime" Precision="0" />
           <Property Name="EndDate" Type="DateTime" Precision="0" />
-          <Property Name="JobTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="CompanyName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="JobTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CompanyName" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
           <Property Name="CityId" Type="Int32" />
           <Property Name="CountryId" Type="Int32" />
           <Property Name="IsCurrent" Type="Boolean" />
@@ -230,77 +247,61 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="FunctionalArea1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FunctionalArea1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="JobRole">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="FunctionalAreaId" Type="Int32" />
-          <Property Name="JobRole1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JobRole1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="ProfessionalIndustry">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="ProfessionalIndustry1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ProfessionalIndustry1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="Resume">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="UserId" Type="Int32" />
-          <Property Name="ResumeTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ResumeTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="User">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="ProfessionalIndustryId" Type="Int32" />
           <Property Name="FunctionalAreaId" Type="Int32" />
           <Property Name="CareerLevelId" Type="Int32" />
           <Property Name="JobRoleId" Type="Int32" />
-          <Property Name="MobileNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ContactNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MobileNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ContactNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="FirstName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="Gender" Type="Boolean" />
           <Property Name="DOB" Type="DateTime" Precision="0" />
-          <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
           <Property Name="AccountType" Type="Int32" />
         </EntityType>
         <EntityType Name="WorkExperience">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="WorkExperience1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="WorkExperience1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
         </EntityType>
-        <EntityContainer Name="JobPortalContext" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Academics" EntityType="Self.Academic" />
-          <EntitySet Name="AccountTypes" EntityType="Self.AccountType" />
-          <EntitySet Name="CareerLevels" EntityType="Self.CareerLevel" />
-          <EntitySet Name="Cities" EntityType="Self.City" />
-          <EntitySet Name="Countries" EntityType="Self.Country" />
-          <EntitySet Name="DegreeLevels" EntityType="Self.DegreeLevel" />
-          <EntitySet Name="DegreeTypes" EntityType="Self.DegreeType" />
-          <EntitySet Name="Experiences" EntityType="Self.Experience" />
-          <EntitySet Name="FunctionalAreas" EntityType="Self.FunctionalArea" />
-          <EntitySet Name="JobRoles" EntityType="Self.JobRole" />
-          <EntitySet Name="ProfessionalIndustries" EntityType="Self.ProfessionalIndustry" />
-          <EntitySet Name="Resumes" EntityType="Self.Resume" />
-          <EntitySet Name="Users" EntityType="Self.User" />
-          <EntitySet Name="WorkExperiences" EntityType="Self.WorkExperience" />
-        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -465,9 +466,8 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="true" />
-        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
-        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
       </DesignerInfoPropertySet>
     </Options>

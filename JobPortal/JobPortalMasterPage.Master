@@ -12,65 +12,18 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    </form>
+    
     <div>
         <div id="header">
             <div class="wrapper">
                 <div class="holder">
-                    <h1 class="logo"><a href="#">JobBoardTemplate</a></h1>
-                    <div class="login-block">
-                        <a href="#" class="account">Create account</a>
-                        <span class="sign"><span>Sign in</span></span>
-                        <form class="sign-form" action="#">
-                            <fieldset>
-                                <div class="row">
-                                    <span class="text">
-                                        <input type="text" value="username" /></span>
-                                    <span class="text">
-                                        <input type="password" value="password" /></span>
-                                    <input type="submit" value="Go" class="submit" />
-                                </div>
-                                <div class="row">
-                                    <label for="check-1">Remember me</label>
-                                    <input type="checkbox" class="check" id="check-1" />
-                                    <a href="#">Forgot your password?</a>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
-                <ul id="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Job Seekers</a></li>
-                    <li><a href="#">Employers</a></li>
-                    <li><a href="#">Career advice</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
+                    <h1 class="logo"><a href="#">JobBoardTemplate</a></h1>                    
+                </div>               
             </div>
         </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
-        <div id="footer">
-            <div class="holder">
-                <div class="info">
-                    <span class="copy">Copyright (c) 2009 <a href="mailto:&#100;&#101;&#115;&#105;&#103;&#110;&#121;&#111;&#117;&#114;&#119;&#097;&#121;&#046;&#110;&#101;&#116;">&#100;&#101;&#115;&#105;&#103;&#110;&#121;&#111;&#117;&#114;&#119;&#097;&#121;&#046;&#110;&#101;&#116;</a></span>
-                    <ul>
-                        <li><a href="#">Terms of use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Disclaimer</a></li>
-                    </ul>
-                </div>
-                <ul class="footer-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Job seekers</a></li>
-                    <li><a href="#">Employers</a></li>
-                    <li><a href="#">Career Advice</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Newsletter</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
     </div>
+    </form>
 </body>
 </html>
