@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal", "JobPortal\JobPortal.csproj", "{8C12C692-6E77-4F54-AD15-5597C536475F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{437118E0-47B4-4F9D-A2E0-5256559E1A78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8C12C692-6E77-4F54-AD15-5597C536475F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C12C692-6E77-4F54-AD15-5597C536475F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C12C692-6E77-4F54-AD15-5597C536475F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437118E0-47B4-4F9D-A2E0-5256559E1A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437118E0-47B4-4F9D-A2E0-5256559E1A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437118E0-47B4-4F9D-A2E0-5256559E1A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437118E0-47B4-4F9D-A2E0-5256559E1A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

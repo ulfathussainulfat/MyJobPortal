@@ -157,22 +157,22 @@
     <edmx:ConceptualModels>
       <Schema Namespace="JobPortalModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="JobPortalContext" p1:LazyLoadingEnabled="true">
-          <EntitySet Name="Academics" EntityType="JobPortalModel.Academic" />
-          <EntitySet Name="AccountTypes" EntityType="JobPortalModel.AccountType" />
-          <EntitySet Name="CareerLevels" EntityType="JobPortalModel.CareerLevel" />
-          <EntitySet Name="Cities" EntityType="JobPortalModel.City" />
-          <EntitySet Name="Countries" EntityType="JobPortalModel.Country" />
-          <EntitySet Name="DegreeLevels" EntityType="JobPortalModel.DegreeLevel" />
-          <EntitySet Name="DegreeTypes" EntityType="JobPortalModel.DegreeType" />
-          <EntitySet Name="Experiences" EntityType="JobPortalModel.Experience" />
-          <EntitySet Name="FunctionalAreas" EntityType="JobPortalModel.FunctionalArea" />
-          <EntitySet Name="JobRoles" EntityType="JobPortalModel.JobRole" />
-          <EntitySet Name="ProfessionalIndustries" EntityType="JobPortalModel.ProfessionalIndustry" />
-          <EntitySet Name="Resumes" EntityType="JobPortalModel.Resume" />
-          <EntitySet Name="Users" EntityType="JobPortalModel.User" />
-          <EntitySet Name="WorkExperiences" EntityType="JobPortalModel.WorkExperience" />
+          <EntitySet Name="Academics" EntityType="JobPortalModel.Academics" />
+          <EntitySet Name="AccountType" EntityType="JobPortalModel.AccountType" />
+          <EntitySet Name="CareerLevel" EntityType="JobPortalModel.CareerLevel" />
+          <EntitySet Name="City" EntityType="JobPortalModel.City" />
+          <EntitySet Name="Country" EntityType="JobPortalModel.Country" />
+          <EntitySet Name="DegreeLevel" EntityType="JobPortalModel.DegreeLevel" />
+          <EntitySet Name="DegreeType" EntityType="JobPortalModel.DegreeType" />
+          <EntitySet Name="Experience" EntityType="JobPortalModel.Experience" />
+          <EntitySet Name="FunctionalArea" EntityType="JobPortalModel.FunctionalArea" />
+          <EntitySet Name="JobRole" EntityType="JobPortalModel.JobRole" />
+          <EntitySet Name="ProfessionalIndustry" EntityType="JobPortalModel.ProfessionalIndustry" />
+          <EntitySet Name="Resume" EntityType="JobPortalModel.Resume" />
+          <EntitySet Name="User" EntityType="JobPortalModel.User" />
+          <EntitySet Name="WorkExperience" EntityType="JobPortalModel.WorkExperience" />
         </EntityContainer>
-        <EntityType Name="Academic">
+        <EntityType Name="Academics">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
@@ -309,7 +309,7 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="JobPortalModelStoreContainer" CdmEntityContainer="JobPortalContext">
           <EntitySetMapping Name="Academics">
-            <EntityTypeMapping TypeName="JobPortalModel.Academic">
+            <EntityTypeMapping TypeName="JobPortalModel.Academics">
               <MappingFragment StoreEntitySet="Academics">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
@@ -323,7 +323,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="AccountTypes">
+          <EntitySetMapping Name="AccountType">
             <EntityTypeMapping TypeName="JobPortalModel.AccountType">
               <MappingFragment StoreEntitySet="AccountType">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -331,7 +331,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="CareerLevels">
+          <EntitySetMapping Name="CareerLevel">
             <EntityTypeMapping TypeName="JobPortalModel.CareerLevel">
               <MappingFragment StoreEntitySet="CareerLevel">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -339,7 +339,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Cities">
+          <EntitySetMapping Name="City">
             <EntityTypeMapping TypeName="JobPortalModel.City">
               <MappingFragment StoreEntitySet="City">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -348,7 +348,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Countries">
+          <EntitySetMapping Name="Country">
             <EntityTypeMapping TypeName="JobPortalModel.Country">
               <MappingFragment StoreEntitySet="Country">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -356,7 +356,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="DegreeLevels">
+          <EntitySetMapping Name="DegreeLevel">
             <EntityTypeMapping TypeName="JobPortalModel.DegreeLevel">
               <MappingFragment StoreEntitySet="DegreeLevel">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -364,7 +364,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="DegreeTypes">
+          <EntitySetMapping Name="DegreeType">
             <EntityTypeMapping TypeName="JobPortalModel.DegreeType">
               <MappingFragment StoreEntitySet="DegreeType">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -373,7 +373,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Experiences">
+          <EntitySetMapping Name="Experience">
             <EntityTypeMapping TypeName="JobPortalModel.Experience">
               <MappingFragment StoreEntitySet="Experience">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -387,7 +387,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="FunctionalAreas">
+          <EntitySetMapping Name="FunctionalArea">
             <EntityTypeMapping TypeName="JobPortalModel.FunctionalArea">
               <MappingFragment StoreEntitySet="FunctionalArea">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -395,7 +395,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="JobRoles">
+          <EntitySetMapping Name="JobRole">
             <EntityTypeMapping TypeName="JobPortalModel.JobRole">
               <MappingFragment StoreEntitySet="JobRole">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -404,7 +404,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="ProfessionalIndustries">
+          <EntitySetMapping Name="ProfessionalIndustry">
             <EntityTypeMapping TypeName="JobPortalModel.ProfessionalIndustry">
               <MappingFragment StoreEntitySet="ProfessionalIndustry">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -412,7 +412,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Resumes">
+          <EntitySetMapping Name="Resume">
             <EntityTypeMapping TypeName="JobPortalModel.Resume">
               <MappingFragment StoreEntitySet="Resume">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -421,7 +421,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Users">
+          <EntitySetMapping Name="User">
             <EntityTypeMapping TypeName="JobPortalModel.User">
               <MappingFragment StoreEntitySet="User">
                 <ScalarProperty Name="Id" ColumnName="Id" />
@@ -444,7 +444,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="WorkExperiences">
+          <EntitySetMapping Name="WorkExperience">
             <EntityTypeMapping TypeName="JobPortalModel.WorkExperience">
               <MappingFragment StoreEntitySet="WorkExperience">
                 <ScalarProperty Name="Id" ColumnName="Id" />

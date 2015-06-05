@@ -25,19 +25,19 @@ namespace JobPortal.DataAccess
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<Academic> Academics { get; set; }
-        public DbSet<AccountType> AccountTypes { get; set; }
-        public DbSet<CareerLevel> CareerLevels { get; set; }
-        public DbSet<City> Cities { get; set; }
-        public DbSet<Country> Countries { get; set; }
-        public DbSet<DegreeLevel> DegreeLevels { get; set; }
-        public DbSet<DegreeType> DegreeTypes { get; set; }
-        public DbSet<Experience> Experiences { get; set; }
-        public DbSet<FunctionalArea> FunctionalAreas { get; set; }
-        public DbSet<JobRole> JobRoles { get; set; }
-        public DbSet<ProfessionalIndustry> ProfessionalIndustries { get; set; }
-        public DbSet<Resume> Resumes { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<WorkExperience> WorkExperiences { get; set; }
+        public DbSet<Academics> Academics { get; set; }
+        public DbSet<AccountType> AccountType { get; set; }
+        public DbSet<CareerLevel> CareerLevel { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<Country> Country { get; set; }
+        public DbSet<DegreeLevel> DegreeLevel { get; set; }
+        public DbSet<DegreeType> DegreeType { get; set; }
+        public DbSet<Experience> Experience { get; set; }
+        public DbSet<FunctionalArea> FunctionalArea { get; set; }
+        public DbSet<JobRole> JobRole { get; set; }
+        public DbSet<ProfessionalIndustry> ProfessionalIndustry { get; set; }
+        public DbSet<Resume> Resume { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<WorkExperience> WorkExperience { get; set; }
     }
 }
