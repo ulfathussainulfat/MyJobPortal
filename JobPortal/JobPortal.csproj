@@ -65,52 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\all.css" />
     <Content Include="Default.aspx" />
-    <Content Include="images\bg-block.gif" />
-    <Content Include="images\bg-check-box.gif" />
-    <Content Include="images\bg-footer.gif" />
-    <Content Include="images\bg-header.jpg" />
-    <Content Include="images\bg-image-holder.gif" />
-    <Content Include="images\bg-left-quote.gif" />
-    <Content Include="images\bg-nav.png" />
-    <Content Include="images\bg-right-quote.gif" />
-    <Content Include="images\bg-sign-form.gif" />
-    <Content Include="images\bg-sign.gif" />
-    <Content Include="images\bg-title.gif" />
-    <Content Include="images\bg-white-mask.png" />
-    <Content Include="images\bullet01.gif" />
-    <Content Include="images\bullet02.gif" />
-    <Content Include="images\bullet03.gif" />
-    <Content Include="images\bullet04.gif" />
-    <Content Include="images\bullet05.gif" />
-    <Content Include="images\ico01.png" />
-    <Content Include="images\ico02.gif" />
-    <Content Include="images\ico03.gif" />
-    <Content Include="images\ico04.gif" />
-    <Content Include="images\img01.jpg" />
-    <Content Include="images\img02.jpg" />
-    <Content Include="images\img03.jpg" />
-    <Content Include="images\img04.jpg" />
-    <Content Include="images\img05.jpg" />
-    <Content Include="images\img06.jpg" />
-    <Content Include="images\img07.jpg" />
-    <Content Include="images\img08.jpg" />
-    <Content Include="images\logo.png" />
-    <Content Include="images\partner-logo-01.jpg" />
-    <Content Include="images\partner-logo-02.jpg" />
-    <Content Include="images\partner-logo-03.jpg" />
-    <Content Include="images\partner-logo-04.jpg" />
-    <Content Include="images\partner-logo-05.jpg" />
-    <Content Include="images\sponsor-logo-01.jpg" />
-    <Content Include="images\sponsor-logo-02.jpg" />
-    <Content Include="images\sponsor-logo-03.jpg" />
-    <Content Include="images\sponsor-logo-04.jpg" />
-    <Content Include="images\sponsor-logo-05.jpg" />
-    <Content Include="images\sprite.gif" />
-    <Content Include="images\transparent.gif" />
-    <Content Include="js\jquery-1.7.1.min.js" />
-    <Content Include="js\jquery.main.js" />
     <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -149,6 +104,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj">
+      <Project>{0b1647c1-1b7a-4b9a-ad6e-f3cd7c1f5d88}</Project>
+      <Name>BusinessObjects</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{437118e0-47b4-4f9d-a2e0-5256559e1a78}</Project>
       <Name>DataAccess</Name>

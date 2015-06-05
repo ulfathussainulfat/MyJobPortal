@@ -22,3 +22,5 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFra
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\DataAccess.pdb
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.xml
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.SqlServer.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\BusinessObjects.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\BusinessObjects.pdb

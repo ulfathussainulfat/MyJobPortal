@@ -5,24 +5,24 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using JobPortal.DataAccess;
+using JobPortal.BusinessObjects;
 
 namespace JobPortal
 {
     public partial class Register : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            var db = new JobPortalContext();
-            var query = (from m in db.AccountType select m).ToList();
+        {      
+            if (Page.IsPostBack == false)
+            {
+                Registration registration = new Registration();
+                ddlAccount.DataTextField = "AccountType1";
+                ddlAccount.DataValueField = "Id";
 
-
-            ddlAccount.DataTextField = "AccountType1";
-            ddlAccount.DataValueField = "Id";
-
-            ddlAccount.DataSource = query;
-            ddlAccount.DataBind();
-
-            
+                ddlAccount.DataSource = registration.GetAccountTypes();
+                ddlAccount.DataBind();
+            }
+                        
         }
     }
 }
