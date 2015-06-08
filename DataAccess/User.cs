@@ -15,7 +15,6 @@ namespace JobPortal.DataAccess
     public partial class User
     {
         public int Id { get; set; }
-        public string UserName { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
         public Nullable<int> ProfessionalIndustryId { get; set; }
@@ -28,8 +27,9 @@ namespace JobPortal.DataAccess
         public string LastName { get; set; }
         public Nullable<bool> Gender { get; set; }
         public Nullable<System.DateTime> DOB { get; set; }
-        public string City { get; set; }
-        public string Address { get; set; }
+        public Nullable<int> CityId { get; set; }
+        public Nullable<int> CountryId { get; set; }
+        public string CNIC { get; set; }
         public Nullable<int> AccountType { get; set; }
     }
 }

@@ -8,3 +8,13 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\Da
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.pdb
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\DataAccess.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.dll
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.xml
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb
+D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache

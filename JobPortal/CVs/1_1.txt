@@ -1,0 +1,20 @@
+These studies focus on the past market
+information, but ignore the latest information.
+
+Financial news usually has significant impact
+on stock market because traders rely on them to make
+judgment for future trading decisions. However, financial news
+articles have following disadvantages. Firstly, financial news
+just reflects the viewpoints of editors and reporters. Secondly,
+because the news release is not scheduled, it is necessary to
+align news articles with the time of stock market. Thirdly, web
+pages of financial news are full of a large amount of
+advertisement and consist of more noise data.
+
+In financial mathematics and financial risk management, value at risk (VaR) is a widely 
+used risk measure of the risk of loss on a specific portfolio of financial assets.
+
+Value at risk, often referred to as VaR, measures the amount of potential loss that 
+could happen in an investment or a portfolio of investments over a given time period.
+
+Stock Market Forecasting based on combining news and sentiment analysis with VaR

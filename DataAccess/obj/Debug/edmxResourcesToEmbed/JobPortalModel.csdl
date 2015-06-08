@@ -13,8 +13,8 @@
     <EntitySet Name="JobRole" EntityType="JobPortalModel.JobRole" />
     <EntitySet Name="ProfessionalIndustry" EntityType="JobPortalModel.ProfessionalIndustry" />
     <EntitySet Name="Resume" EntityType="JobPortalModel.Resume" />
-    <EntitySet Name="User" EntityType="JobPortalModel.User" />
     <EntitySet Name="WorkExperience" EntityType="JobPortalModel.WorkExperience" />
+    <EntitySet Name="Users" EntityType="JobPortalModel.User" />
   </EntityContainer>
   <EntityType Name="Academics">
     <Key>
@@ -117,33 +117,33 @@
     <Property Name="UserId" Type="Int32" />
     <Property Name="ResumeTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
   </EntityType>
-  <EntityType Name="User">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
-    <Property Name="UserName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="Password" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="ProfessionalIndustryId" Type="Int32" />
-    <Property Name="FunctionalAreaId" Type="Int32" />
-    <Property Name="CareerLevelId" Type="Int32" />
-    <Property Name="JobRoleId" Type="Int32" />
-    <Property Name="MobileNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="ContactNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="FirstName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="LastName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="Gender" Type="Boolean" />
-    <Property Name="DOB" Type="DateTime" Precision="0" />
-    <Property Name="City" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
-    <Property Name="Address" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
-    <Property Name="AccountType" Type="Int32" />
-  </EntityType>
   <EntityType Name="WorkExperience">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
     <Property Name="WorkExperience1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProfessionalIndustryId" Type="Int32" />
+    <Property Name="FunctionalAreaId" Type="Int32" />
+    <Property Name="CareerLevelId" Type="Int32" />
+    <Property Name="JobRoleId" Type="Int32" />
+    <Property Name="MobileNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ContactNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="Boolean" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="CityId" Type="Int32" />
+    <Property Name="CountryId" Type="Int32" />
+    <Property Name="CNIC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AccountType" Type="Int32" />
   </EntityType>
 </Schema>

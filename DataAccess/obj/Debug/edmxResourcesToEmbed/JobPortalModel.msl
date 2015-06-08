@@ -114,34 +114,34 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="User">
-      <EntityTypeMapping TypeName="JobPortalModel.User">
-        <MappingFragment StoreEntitySet="User">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="UserName" ColumnName="UserName" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="Email" ColumnName="Email" />
-          <ScalarProperty Name="ProfessionalIndustryId" ColumnName="ProfessionalIndustryId" />
-          <ScalarProperty Name="FunctionalAreaId" ColumnName="FunctionalAreaId" />
-          <ScalarProperty Name="CareerLevelId" ColumnName="CareerLevelId" />
-          <ScalarProperty Name="JobRoleId" ColumnName="JobRoleId" />
-          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
-          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
-          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
-          <ScalarProperty Name="LastName" ColumnName="LastName" />
-          <ScalarProperty Name="Gender" ColumnName="Gender" />
-          <ScalarProperty Name="DOB" ColumnName="DOB" />
-          <ScalarProperty Name="City" ColumnName="City" />
-          <ScalarProperty Name="Address" ColumnName="Address" />
-          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="WorkExperience">
       <EntityTypeMapping TypeName="JobPortalModel.WorkExperience">
         <MappingFragment StoreEntitySet="WorkExperience">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="WorkExperience1" ColumnName="WorkExperience" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="JobPortalModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="AccountType" ColumnName="AccountType" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="JobRoleId" ColumnName="JobRoleId" />
+          <ScalarProperty Name="CareerLevelId" ColumnName="CareerLevelId" />
+          <ScalarProperty Name="FunctionalAreaId" ColumnName="FunctionalAreaId" />
+          <ScalarProperty Name="ProfessionalIndustryId" ColumnName="ProfessionalIndustryId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

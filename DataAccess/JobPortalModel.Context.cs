@@ -37,7 +37,7 @@ namespace JobPortal.DataAccess
         public DbSet<JobRole> JobRole { get; set; }
         public DbSet<ProfessionalIndustry> ProfessionalIndustry { get; set; }
         public DbSet<Resume> Resume { get; set; }
-        public DbSet<User> User { get; set; }
         public DbSet<WorkExperience> WorkExperience { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

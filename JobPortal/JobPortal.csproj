@@ -65,7 +65,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\register.css" />
     <Content Include="Default.aspx" />
+    <Content Include="images\invalid.gif" />
+    <Content Include="images\redAsterisk.jpg" />
+    <Content Include="images\valid.gif" />
     <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -112,6 +116,9 @@
       <Project>{437118e0-47b4-4f9d-a2e0-5256559e1a78}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CVs\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
