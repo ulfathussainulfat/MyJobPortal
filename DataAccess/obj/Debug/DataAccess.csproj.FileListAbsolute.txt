@@ -1,13 +1,3 @@
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.xml
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll.config
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll.config
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\DataAccess.pdb
@@ -18,3 +8,12 @@ D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\bin\Debug\EntityFramework.Sq
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb
 D:\Projects\JobPortal-Github\MyJobPortal\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll.config
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\DataAccess.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb

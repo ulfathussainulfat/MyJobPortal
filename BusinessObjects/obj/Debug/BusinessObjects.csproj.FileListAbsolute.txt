@@ -1,15 +1,3 @@
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.dll.config
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\DataAccess.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.SqlServer.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\DataAccess.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.xml
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.xml
 D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.dll.config
 D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.dll
@@ -22,3 +10,15 @@ D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\bin\Debug\EntityFramewo
 D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
 D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.dll
 D:\Projects\JobPortal-Github\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.dll.config
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\BusinessObjects.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\DataAccess.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.SqlServer.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\DataAccess.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\EntityFramework.SqlServer.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.pdb

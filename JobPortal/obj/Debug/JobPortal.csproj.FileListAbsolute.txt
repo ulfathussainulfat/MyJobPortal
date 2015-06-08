@@ -3,19 +3,6 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\bin\JobPortal.pdb
 E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
 E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.dll
 E:\Ulfat Hussain\Personal\Projects\JobPortal\JobPortal\obj\Debug\JobPortal.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\JobPortal.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\JobPortal.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\DataAccess.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.SqlServer.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\DataAccess.pdb
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.xml
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.SqlServer.xml
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\BusinessObjects.dll
-E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\BusinessObjects.pdb
 D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
 D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\JobPortal.dll.config
 D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\JobPortal.dll
@@ -30,3 +17,16 @@ D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\EntityFramework.xml
 D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\bin\EntityFramework.SqlServer.xml
 D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\obj\Debug\JobPortal.dll
 D:\Projects\JobPortal-Github\MyJobPortal\JobPortal\obj\Debug\JobPortal.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\JobPortal.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\JobPortal.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\BusinessObjects.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\DataAccess.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.SqlServer.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\BusinessObjects.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\DataAccess.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFramework.SqlServer.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.pdb

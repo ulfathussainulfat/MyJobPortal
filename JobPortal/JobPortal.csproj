@@ -65,12 +65,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\common.css" />
     <Content Include="css\register.css" />
     <Content Include="Default.aspx" />
+    <Content Include="images\ajax-loader.gif" />
     <Content Include="images\invalid.gif" />
     <Content Include="images\redAsterisk.jpg" />
     <Content Include="images\valid.gif" />
+    <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Scripts\AjaxController.js" />
+    <Content Include="Scripts\Login.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +92,13 @@
     </Compile>
     <Compile Include="JobPortalMasterPage.Master.designer.cs">
       <DependentUpon>JobPortalMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
