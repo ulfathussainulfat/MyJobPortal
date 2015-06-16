@@ -84,9 +84,12 @@
                 </tr>
                 <tr>
                     <td>Location</td>
-                    <td>
+                    <td class="tdcountrycitysection">
                         <select id="ddlPICountry" runat="server" required="required"  title="Country is required"/>
-                        <select id="ddlPICity" runat="server" required="required"  title="City is required"/>
+                        <select id="ddlPICity" runat="server" required="required"  title="City is required">
+                            <option value="-1">- Select City -</option>
+                        </select>
+                        <div style="display:inline;"></div>
                     </td>
                 </tr>
                 <tr>
@@ -118,10 +121,11 @@
                         <select id="ddlDegreeLevel" runat="server" required="required"  title="Degree Level is required"/>
                     </td>
                 </tr>
-                <tr>
+                <tr name="trddlDegreeType">
                     <td>Degree Type</td>
                     <td>
                         <select id="ddlDegreeType" runat="server" required="required"  title="Degree Type is required"/>
+                        <div id="divddlDegreeType" style="display:inline;"></div>
                     </td>
                 </tr>
                 <tr>
@@ -131,7 +135,7 @@
                 </tr>
                 <tr>
                     <td>Location</td>
-                    <td>
+                    <td class="tdcountrycitysection">
                         <select id="ddlACountry" runat="server" required="required"  title="Country is required"/>
                         <select id="ddlACity" runat="server" required="required"  title="City is required"/>
                     </td>
@@ -174,13 +178,16 @@
                 <tr>
                     <td>Functional Area</td>
                     <td>
-                        <select id="ddlFunctionalArea" runat="server" required="required"  title="Functional Area is required"/>
+                        <select id="ddlFunctionalArea" runat="server" required="required"  title="Functional Area is required"/><div id="divddlJobRole" style="display:inline;"></div>
                     </td>
                 </tr>
-                <tr>
+                <tr name="trddlJobRole" style="display: none">
                     <td>Job Role</td>
                     <td>
-                        <select id="ddlJobeRole" runat="server" required="required"  title="Job Role is required"/>
+                        <select id="ddlJobRole" runat="server" required="required"  title="Job Role is required">
+                            <option value="-1">- Select Job Role -</option>
+                        </select>
+                        
                     </td>
                 </tr>
                 <tr>

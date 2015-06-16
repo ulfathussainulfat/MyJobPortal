@@ -32,14 +32,14 @@ namespace JobPortal
 
             //Personal Information/City
             //TODO: 
-            BindDropDown(ddlPICity, "Id", "City1", registration.GetCities(1), "-Select City-");
+            //BindDropDown(ddlPICity, "Id", "City1", registration.GetCities(1), "-Select City-");//commented --load it dynamically
 
             //Academic/Degreel Level
             BindDropDown(ddlDegreeLevel, "Id", "DegreeLevel1", registration.GetDegreeLevels(), "-Select Degree Level-");
 
             //Academic/Degreel Type
             //TODO:
-            BindDropDown(ddlDegreeType, "Id", "DegreeType1", registration.GetDegreeTypes(), "-Select Degree Type-");
+            //BindDropDown(ddlDegreeType, "Id", "DegreeType1", registration.GetDegreeTypes(), "-Select Degree Type-");//commented --load it dynamically
 
             //Academic/Country
             BindDropDown(ddlACountry, "Id", "Country1", registration.GetCountries(), "-Select Country-");
@@ -63,7 +63,7 @@ namespace JobPortal
             BindDropDown(ddlFunctionalArea, "Id", "FunctionalArea1", registration.GetFunctionalAreas(), "--Select Functional Area--");
 
             //Professional Information/Job Role
-            BindDropDown(ddlJobeRole, "Id", "JobRole1", registration.GetJobRoles(), "--Select Job Role--");
+            //BindDropDown(ddlJobRole, "Id", "JobRole1", registration.GetJobRoles(), "--Select Job Role--");
 
             //Professional Information/Career Level
             BindDropDown(ddlCarerLevel, "Id", "CareerLevel1", registration.GetCareelLevels(), "--Select Career Level--");
@@ -102,7 +102,7 @@ namespace JobPortal
                 newUser.CNIC = txtCNIC.Value;
                 newUser.ProfessionalIndustryId = int.Parse(ddlProfessionalIndustry.Value);
                 newUser.FunctionalAreaId = int.Parse(ddlFunctionalArea.Value);
-                newUser.JobRoleId = int.Parse(ddlJobeRole.Value);
+                newUser.JobRoleId = int.Parse(ddlJobRole.Value);
                 newUser.CareerLevelId = int.Parse(ddlCarerLevel.Value);
                 db.Users.Add(newUser);
                 db.SaveChanges();

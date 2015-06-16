@@ -229,13 +229,13 @@ namespace JobPortal {
         protected global::System.Web.UI.HtmlControls.HtmlSelect ddlFunctionalArea;
         
         /// <summary>
-        /// ddlJobeRole control.
+        /// ddlJobRole control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlJobeRole;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlJobRole;
         
         /// <summary>
         /// ddlCarerLevel control.

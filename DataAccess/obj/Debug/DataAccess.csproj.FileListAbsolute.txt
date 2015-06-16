@@ -17,3 +17,6 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\En
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.dll
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\Newtonsoft.Json.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\bin\Debug\Newtonsoft.Json.xml
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache

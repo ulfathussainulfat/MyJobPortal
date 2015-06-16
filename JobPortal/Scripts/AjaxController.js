@@ -1,28 +1,23 @@
 ﻿var AjaxController = {
 
-    CallAjaxFunction: function (url, data, loadingSelector) {
+    CallAjaxFunction: function (url, type, data, succesFunction, loadingObject) {
 
-        if (loadingSelector != '') {
-            $(loadingSelector).show();
+        if (loadingObject != null) {
+            $(loadingObject).html('<img src="images/ajax-loader.gif" />');
         }
-        alert('s');
         $.ajax({
-
-            url: '../webapi/api/' + url,
-            type: typeP != null ? typeP : "GET",
+            url: 'AjaxHandler.ashx' + url,
+            type: type != null ? type : "GET",
             contentType: 'application/json; charset=utf-8',
-            data: dataP,
-
+            data: data,
             success: function (data, textStatus, qXHR) {
-
-                if (typeof successP == 'function') {
-                    successP(data, textStatus, qXHR);
-                }
-                else Communication.HandleAPIResponse(data);
+                if (typeof succesFunction == 'function') {
+                    succesFunction(data, textStatus, qXHR);
+                }               
             },
             complete: function (qXHR, textStatus) {
-                if (loadingSelector != '') {
-                    $(loadingSelector).show();
+                if (loadingObject != null) {
+                    $(loadingObject).html('');
                 }
             }
         });

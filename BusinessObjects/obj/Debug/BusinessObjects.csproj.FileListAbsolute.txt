@@ -22,3 +22,5 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Deb
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.dll
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\obj\Debug\BusinessObjects.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\Newtonsoft.Json.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\BusinessObjects\bin\Debug\Newtonsoft.Json.xml

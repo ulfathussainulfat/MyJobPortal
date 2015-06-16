@@ -47,6 +47,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -75,10 +79,14 @@
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\AjaxController.js" />
-    <Content Include="Scripts\Login.js" />
+    <Content Include="Scripts\AllScripts.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjaxHandler.ashx.cs">
+      <DependentUpon>AjaxHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,6 +120,7 @@
   <ItemGroup>
     <Content Include="JobPortalMasterPage.Master" />
     <Content Include="packages.config" />
+    <Content Include="AjaxHandler.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

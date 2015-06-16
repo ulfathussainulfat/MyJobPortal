@@ -30,3 +30,5 @@ E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\EntityFra
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.csprojResolveAssemblyReference.cache
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.dll
 E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\obj\Debug\JobPortal.pdb
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\Newtonsoft.Json.dll
+E:\Ulfat Hussain\Personal\Projects\JobPortal\MyJobPortal\JobPortal\bin\Newtonsoft.Json.xml
